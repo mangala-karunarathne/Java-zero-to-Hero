@@ -7,16 +7,16 @@ class rank3 {
         
 		Scanner myObj = new Scanner(System.in);
 		
-		
-		// int i = myObj.nextInt();
-        // double d = myObj.nextDouble();
-		String v = myObj.nextLine();
+		int i = myObj.nextInt();
+        double d = myObj.nextDouble();
+		myObj.nextLine();
+		String s = myObj.nextLine();
 		
 		// System.out.println("Enter your Name here...");
 		// String mK = myObj.nextLine();
 		/* Scanner myMk = new Scanner(System.in); */
  
-        System.out.println("String: " + v); 
+        System.out.println("String: " + s); 
         // System.out.println("Double: " + d);
         // System.out.println("Int: " + i);
 	}
